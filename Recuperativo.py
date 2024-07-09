@@ -49,7 +49,7 @@ def main():
             if estado in ['c', 's', 'v']:
                 break
             else:
-                print("Ingrese una de las opciones vÃ¡lidas: c, s, v")
+                print("Ingrese una de las opciones validas: c, s, v")
 
         fecha = input("Ingrese su fecha de afiliacion: ")
 
@@ -75,7 +75,7 @@ def main():
                 if persona["Estado Civil"] == buscar:
                     print(persona)
         else:
-            print("Ingrese una de las opciones vÃ¡lidas: c, s, v")
+            print("Ingrese una de las opciones validas: c, s, v")
         main()
 
     elif op == 3:
